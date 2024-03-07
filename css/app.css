@@ -1,0 +1,61 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+/*Globales*/
+body{
+    font-family: "Raleway", sans-serif;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+h1, h2, h3 {
+    font-family: "Playfair Display", serif;
+}
+
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+    margin:0 0 0.5px 0;
+}
+
+a{
+    text-decoration: none;
+    color: #000
+}
+.contenedor{
+    max-width: 1200px;
+    margin-inline: auto;
+}
+
+/*Apartado de "agregar al carrito"*/
+.btn{
+    background-color: #8cbc00;
+    display: block;
+    color:white;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 10px;
+    transition: background-color .3s ease-out;
+}
+/*Camvio de color cuando pasa el raton por encima*/
+.btn:hover{
+    background-color: #769c02;
+}
+
+/*linea debajo de inicio, blog y contacto*/
+.indice{
+    border-bottom: 1px solid #e1e1e1;
+}
