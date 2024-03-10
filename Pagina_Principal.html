@@ -4,6 +4,10 @@
 <head>
     <title>Pagina principal</title>
     <link rel="stylesheet" href="css/app.css">
+
+    <meta name="description" content="Mi sitio web" />
+    <link rel="icon" type="image/x-icon" href="img/logo.png" />
+
 </head>
 
 <body>
@@ -12,10 +16,16 @@
 
             <img src="img/logo.png" alt="Logo de la empresa" class="img_logo">
 
-            <nav class="barra_navegacion">
-                <a href="pagina_principal.html">Inicio</a>
-                <a href="blog.html">Blog</a>
-                <a href="contacto.html">Contacto</a>
+            <nav class="buscador">
+                <section id="buscador">
+                    <form action="" method="get">
+                        <fieldset>
+                            <legend>Buscador</legend>
+                            <input type="text" name="busqueda" size="30" placeholder="Búsqueda..." />
+                            <input type="submit" name="botonbuscar" value="Buscar" />
+                        </fieldset>
+                    </form>
+                </section>
             </nav>
         </div>
     </header>
@@ -40,18 +50,27 @@
             </ul>
 
             <h2 class="titulo_columna1">Librerías</h2>
-            <ol class="libreria">
-                <li>Librería SISTEMA</li>
-                <li>Librería EPLAN</li>
-                <li>Librería CAD</li>
-            </ol>
+            <ul class="libreria">
+                <li><a href="">Librería SISTEMA</a></li>
+                <li><a href="">Librería EPLAN</a></li>
+                <li><a href="">Librería CAD</a></li>
+            </ul>
         </div>
 
         <div class="columna2">
 
-            <h1>SMC Corporation</h1>
+        <nav id="barra_navegacion">
+            <ul>
+                <li class="seleccionado"><a href="pagina_principal.html">Pagina principal</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="historia">
 
-            <h2>Historia de SMC Corporation</h2>
+            <h1 class="titulo_principal">SMC Corporation</h1>
+
+            <h2 class="titulo_secundario">Historia de SMC Corporation</h2>
             <img src="imagen1.jpg" alt="Imagen 1" class="imagen">
 
             <p>SMC Corporation es una empresa multinacional japonesa que se especializa en la fabricación de componentes y sistemas neumáticos. Fundada en 1959 en Japón, SMC ha crecido para convertirse en uno de los principales proveedores mundiales de tecnologías de automatización industrial.</p>
@@ -65,6 +84,7 @@
             <p>La empresa se dedica a proporcionar soluciones innovadoras y de alta calidad en áreas como la automatización de fábricas, control de procesos, sistemas de energía limpia y mucho más. Con una amplia gama de productos, incluyendo actuadores, válvulas, equipos de tratamiento de aire y sistemas de control, SMC continúa liderando el mercado global de la automatización.</p>
             
             <img src="imagen2.jpg" alt="Imagen 2" class="imagen">
+        </div>
         </div>
 
 
