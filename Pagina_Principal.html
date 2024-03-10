@@ -4,6 +4,7 @@
 <head>
     <title>Pagina principal</title>
     <link rel="stylesheet" href="css/app.css">
+    <link rel="img" href="img">
 </head>
 
 <body>
@@ -11,37 +12,36 @@
         <div class="indice">
 
             <img src="logo.png" alt="Logo de la empresa">
-            
-            <nav>
-                <ul>
-                    <li><a href="pagina_principal.html">Inicio</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
+
+            <nav class="barra_navegacion">
+                <a href="pagina_principal.html">Inicio</a>
+                <a href="blog.html">Blog</a>
+                <a href="contacto.html">Contacto</a>
             </nav>
         </div>
     </header>
 
     <main>
+        <div class="principal">
         <div class="columna1">
-            <h2>Productos</h2>
-            <ul>
-                <li>Actuadores neumáticos</li>
-                <li>Actuadores eléctricos</li>
-                <li>Electroválvulas y válvulas neumáticas</li>
-                <li>Tratamiento de aire comprimido</li>
+            <h2 class="titulo_columna1">Productos</h2>
+            <ul class="productos">
+                <li><a href=""> Actuadores neumáticos </a></li>
+                <li><a href="">Actuadores eléctricos</a></li>
+                <li><a href="">Electroválvulas</a></li>
+                <li><a href="">Tratamiento de aire comprimido</a></li>
             </ul>
 
-            <h2>Soluciones</h2>
-            <ul>
-                <li>Seguridad en maquinaria</li>
-                <li>Mantenimiento industrial</li>
-                <li>Digitalización de aire comprimido</li>
-                <li>Sistema wireless SMC</li>
+            <h2 class="titulo_columna1">Soluciones</h2>
+            <ul class="soluciones">
+                <li><a href="">Seguridad en maquinaria</a></li>
+                <li><a href="">Mantenimiento industrial</a></li>
+                <li><a href="">Digitalización de aire comprimido</a></li>
+                <li><a href="">Sistema wireless SMC</a></li>
             </ul>
 
-            <h2>Librerías</h2>
-            <ol>
+            <h2 class="titulo_columna1">Librerías</h2>
+            <ol class="libreria">
                 <li>Librería SISTEMA</li>
                 <li>Librería EPLAN</li>
                 <li>Librería CAD</li>
@@ -49,7 +49,17 @@
         </div>
 
         <div class="columna2">
+
+            <h1>SMC Corporation</h1>
+
             <h2>Historia de SMC Corporation</h2>
+            <img src="imagen1.jpg" alt="Imagen 1" class="imagen">
+
+            <p>SMC Corporation es una empresa multinacional japonesa que se especializa en la fabricación de componentes y sistemas neumáticos. Fundada en 1959 en Japón, SMC ha crecido para convertirse en uno de los principales proveedores mundiales de tecnologías de automatización industrial.</p>
+            <p>La empresa se dedica a proporcionar soluciones innovadoras y de alta calidad en áreas como la automatización de fábricas, control de procesos, sistemas de energía limpia y mucho más. Con una amplia gama de productos, incluyendo actuadores, válvulas, equipos de tratamiento de aire y sistemas de control, SMC continúa liderando el mercado global de la automatización.</p>
+            
+            <img src="imagen2.jpg" alt="Imagen 2" class="imagen">
+
             <img src="imagen1.jpg" alt="Imagen 1" class="imagen">
 
             <p>SMC Corporation es una empresa multinacional japonesa que se especializa en la fabricación de componentes y sistemas neumáticos. Fundada en 1959 en Japón, SMC ha crecido para convertirse en uno de los principales proveedores mundiales de tecnologías de automatización industrial.</p>
@@ -80,6 +90,7 @@
                 </tr>
             </table>
         </div>
+    </div>
     </main>
 
     <footer>
@@ -96,7 +107,7 @@
             <div class="footer-navegacion">
                 <h3>Soporte</h3>
                 <nav>
-                    <a href="#">Preguntas frecuentes</a>
+                    <a href="#">Empresa y Soporte</a>
                     <a href="#">Ayuda en línea</a>
                     <a href="#">Confianza y seguridad</a>
                 </nav>
