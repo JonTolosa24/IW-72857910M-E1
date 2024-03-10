@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang = "es">
+<html lang="es">
 
 <head>
     <title>Pagina principal</title>
@@ -8,68 +8,78 @@
 
 <body>
     <header>
-        <div class="indice">  
-        <nav>
-            <ul>
-                <li><a href="pagina_principal.html">Inicio</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+        <div class="indice">
+
+            <img src="logo.png" alt="Logo de la empresa">
+            
+            <nav>
+                <ul>
+                    <li><a href="pagina_principal.html">Inicio</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
     <main>
-        <section>
-            <h2>SMC Corporation</h2>
-            <h3>Historia de la empresa</h3>
-            <div class="historia">
-                <article class="introduccion">
-                    <img src="img/producto1.jpg"
-                        alt="Imagen del producto 1">
-                    <div class="info-producto">
-                        <h3>Introduccion</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur
-                            adipisicing elit. Reiciendis ab, consequuntur
-                            voluptas quod ex nihil unde nesciunt. Eligendi
-                            itaque nam dolorum, distinctio quis saepe
-                            dolorem doloribus ipsa iste tenetur sunt.</p>
-                        <p class="precio">595€</p>
-                        <a href="#" class="btn"> Agregar al carrito </a>
-                    </div>
-                </article>
-                <article class="producto">
-                    <img src="img/producto2.jpg"
-                        alt="Imagen del producto 2">
-                    <div class="info-producto">
-                        <h3>De donde venimos</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur
-                            adipisicing elit. Reiciendis ab, consequuntur
-                            voluptas quod ex nihil unde nesciunt. Eligendi
-                            itaque nam dolorum, distinctio quis saepe
-                            dolorem doloribus ipsa iste tenetur sunt.</p>
-                        <p class="precio">595€</p>
-                        <a href="#" class="btn"> Agregar al carrito </a>
-                    </div>
-                </article>
-            </div>
-        </section>
-        <section>
-            <nav>
-                <ul>
-                    <li>Fila 1</li>
-                    <li>Fila 2</li>
-                    <li>Fila 3</li>
-                </ul>
-            </nav> 
-            <nav>
-                <ol>
-                    <li>Fila 1</li>
-                    <li>Fila 2</li>
-                    <li>Fila 3</li>
-                </ol>
-            </nav>            
-        </section>
+        <div class="columna1">
+            <h2>Productos</h2>
+            <ul>
+                <li>Actuadores neumáticos</li>
+                <li>Actuadores eléctricos</li>
+                <li>Electroválvulas y válvulas neumáticas</li>
+                <li>Tratamiento de aire comprimido</li>
+            </ul>
+
+            <h2>Soluciones</h2>
+            <ul>
+                <li>Seguridad en maquinaria</li>
+                <li>Mantenimiento industrial</li>
+                <li>Digitalización de aire comprimido</li>
+                <li>Sistema wireless SMC</li>
+            </ul>
+
+            <h2>Librerías</h2>
+            <ol>
+                <li>Librería SISTEMA</li>
+                <li>Librería EPLAN</li>
+                <li>Librería CAD</li>
+            </ol>
+        </div>
+
+        <div class="columna2">
+            <h2>Historia de SMC Corporation</h2>
+            <img src="imagen1.jpg" alt="Imagen 1" class="imagen">
+
+            <p>SMC Corporation es una empresa multinacional japonesa que se especializa en la fabricación de componentes y sistemas neumáticos. Fundada en 1959 en Japón, SMC ha crecido para convertirse en uno de los principales proveedores mundiales de tecnologías de automatización industrial.</p>
+            <p>La empresa se dedica a proporcionar soluciones innovadoras y de alta calidad en áreas como la automatización de fábricas, control de procesos, sistemas de energía limpia y mucho más. Con una amplia gama de productos, incluyendo actuadores, válvulas, equipos de tratamiento de aire y sistemas de control, SMC continúa liderando el mercado global de la automatización.</p>
+            
+            <img src="imagen2.jpg" alt="Imagen 2" class="imagen">
+        </div>
+
+
+        <div class="columna3">
+            <h2>Preguntas Frecuentes</h2>
+            <table>
+                <tr>
+                    <th>Pregunta</th>
+                    <th>Respuesta</th>
+                </tr>
+                <tr>
+                    <td>¿Cuáles son sus productos?</td>
+                    <td>Ofrecemos una amplia gama de productos, incluyendo actuadores neumáticos, actuadores eléctricos, electroválvulas, válvulas neumáticas, sistemas de tratamiento de aire comprimido, sistemas de control y mucho más.</td>
+                </tr>
+                <tr>
+                    <td>¿Dónde están ubicados?</td>
+                    <td>Nuestra sede principal se encuentra en Tokio, Japón. Además, tenemos sucursales y distribuidores en todo el mundo para brindar soporte a nuestros clientes.</td>
+                </tr>
+                <tr>
+                    <td>¿Cómo puedo contactarlos?</td>
+                    <td>Puedes comunicarte con nosotros a través de nuestro formulario de contacto en línea, por correo electrónico o por teléfono. Visita nuestra página de contacto para obtener más información.</td>
+                </tr>
+            </table>
+        </div>
     </main>
 
     <footer>
@@ -93,7 +103,7 @@
             </div>
         </div>
     </footer>
-       
+
 </body>
 
 </html>
