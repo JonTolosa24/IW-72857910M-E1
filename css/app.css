@@ -26,6 +26,11 @@ header {
     background-color: #000; /* Color de la línea */
 }
 
+.img_logo {
+    width: 100px; /* Cambia el ancho de la imagen */
+    height: auto; /* Mantiene la proporción original de la imagen */
+}
+
 /* --------------------------------------------------------------- */
 
 .principal {
