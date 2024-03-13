@@ -2,7 +2,7 @@ header {
     background-color: #ffffffcf; /* Fondo azul */
     color: #fff;
     padding: 20px;
-    border-bottom: 2px solid black;  
+    border-bottom: 2px solid rgb(157, 157, 157);  
 }
 
 .indice {
@@ -12,7 +12,7 @@ header {
 }
 
 .img_logo {
-    width: 50px; /* Cambia el ancho de la imagen */
+    width: 125px; /* Cambia el ancho de la imagen */
     height: auto; /* Mantiene la proporción original de la imagen */
 }
 
@@ -56,6 +56,7 @@ header {
     padding: 10px;    
 }
 
+/* Division de la pagina en 3 columnas*/
 .columna1 {
     width: 18%; /* Tamaño de la primera columna */
     background-color: #d6d6d6; /* Color de fondo para la primera columna */
@@ -77,6 +78,7 @@ header {
     font-size: 18px;
 }
 
+/* Primera columna (izd) */
 .productos {
     list-style: none; /* Quita los estilos de la lista */
     padding: 0; /* Elimina el relleno de la lista */
@@ -220,7 +222,7 @@ footer {
     background-color: #ffffffcf; /* Fondo azul */
     color: #000000;
     padding: 20px;
-    border-top: 2px solid black;  
+    border-top: 2px solid rgb(157, 157, 157);   
 }
 
 .contenedor {
@@ -246,6 +248,25 @@ footer {
 
 .navegacion a:hover {
     text-decoration: underline; /* Subraya los enlaces al pasar el cursor sobre ellos */
+}
+
+
+.ubicacion {
+    float: left;
+    display: flex; /* Utiliza flexbox para alinear los elementos */
+    flex-direction: column; /* Alinea los elementos en una columna */
+    align-items: flex-start; /* Alinea los elementos a la izquierda */
+}
+
+#dondeestamos {
+    margin-bottom: 10px; /* Espacio entre el encabezado y el mapa */
+}
+   
+    
+
+#mapa {
+   
+    width: 300px;
 }
 
 
