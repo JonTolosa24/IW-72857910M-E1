@@ -265,6 +265,7 @@ header {
 
 /* -----------------------------footer ---------------------------------------------------------*/
 
+
 footer {
     
     clear: both;
@@ -284,36 +285,24 @@ footer {
     justify-content: space-between;
 }
 
+.navegacion{
+    display: flex; 
+    justify-content: space-between;
+}
+
 .ubicacion {
     float: left;
 }
 
-.footer-navegacion {
-    float: left;
-}
-
-.footer-navegacion .navegacion {
-    margin-top: 20px;
-    
-
-}
-
-.footer-navegacion h3 {
-    margin-bottom: 10px;
-
-}
 
 footer .copyright {
     clear: both;
 
 }
 
-
 #mapa {
     width: 180px;
-
     height: 120px;
-
 }
 
 
@@ -325,27 +314,39 @@ footer .copyright {
 }
 
 .soporte {
-    list-style: none;
-    /* Quita los estilos de la lista */
+    list-style: none;    
     padding: 0;
-    /* Elimina el relleno de la lista */
-
 }
 
 .soporte li {
     padding: 10px;
-    /* Espacio interno de cada elemento de la lista */
     border-bottom: 1px solid rgb(190, 190, 190);
 }
 
 .soporte li a {
-    text-decoration: none;
-    /* Quita el subrayado de los enlaces */
+    text-decoration: none;    
     color: rgb(255, 255, 255);
-    /* Color del texto */
 }
 
 .soporte li:hover {
     background-color: rgb(188, 188, 188);
-    /* Cambia el color de fondo cuando se pasa el ratón */
+}
+
+.redes-sociales {
+    list-style: none;    
+    padding: 0;
+}
+
+.redes-sociales li {
+    padding: 10px;
+    border-bottom: 1px solid rgb(190, 190, 190);
+}
+
+.redes-sociales li a {
+    text-decoration: none;    
+    color: rgb(255, 255, 255);
+}
+
+.redes-sociales li:hover {
+    background-color: rgb(188, 188, 188);
 }
