@@ -403,7 +403,11 @@ input[type="radio"]+label {
     margin-left: 5px;
 }
 
-/*----------------tabla de proyectos*/
+/*----------------tabla de proyectos------------------*/
+#proyectosNeumaatica{
+    color: #0066b3;
+}
+
 
 table {
     width: 100%;
