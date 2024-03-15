@@ -1,6 +1,5 @@
 header {
     background-color: #ffffffcf;
-    /* Fondo azul */
     color: #fff;
     padding: 20px;
     border-bottom: 2px solid rgb(157, 157, 157);
@@ -8,90 +7,43 @@ header {
 
 .indice {
     display: flex;
-    /* Utiliza flexbox para alinear los elementos */
     align-items: center;
-    /* Centra verticalmente los elementos */
     justify-content: space-between;
-    /* Distribuye los elementos a los extremos del contenedor */
 }
 
 .img_logo {
-    width: 125px;
-    /* Cambia el ancho de la imagen */
-    height: auto;
-    /* Mantiene la proporción original de la imagen */
+    width: 125px;    
+    height: auto;    
 }
 
-.buscador {
-    display: flex;
-    /* Utiliza flexbox para alinear los elementos */
-    align-items: center;
-    /* Centra verticalmente los elementos */
+input[type="text"],
+input[type="submit"] {
+    display: inline-block; /* Para que los elementos se muestren en línea */
+    
 }
-
-#buscador {
-    margin-left: auto;
-    /* Empuja el buscador hacia la derecha */
-}
-
-#buscador legend {
-    display: none;
-}
-
-#buscador fieldset {
-    border: none;
-    margin-left: 20px;
-    /* Espacio entre el buscador y otros elementos */
-}
-
-#buscador input[type="text"] {
-    height: 30px;
-    /* Ajusta la altura del campo de búsqueda */
-    font-size: 16px;
-    /* Ajusta el tamaño de letra del texto dentro del campo de búsqueda */
-}
-
-#buscador input[type="submit"] {
-    height: 34px;
-    font-size: 16px;
-    /* Ajusta el tamaño de letra del botón de búsqueda */
-}
-
-
-
-
-
-/* --------------------------------------------------------------- */
+/*---------------------------------Centro de la pagina dividido en tres columnas -------------*/
 
 .principal {
     display: flex;
-    /* Utilizamos flexbox para alinear las columnas */
     justify-content: space-between;
-    /* Distribuye las columnas uniformemente en el contenedor */
     padding: 10px;
 }
 
-/* Division de la pagina en 3 columnas*/
+/*------------------------------Division de la pagina en 3 columnas---------------------*/
 .columna1 {
     width: 18%;
-    /* Tamaño de la primera columna */
     background-color: #d6d6d6;
-    /* Color de fondo para la primera columna */
     color: #0066b3;
 }
 
 .columna2 {
     width: 60%;
-    /* Tamaño de la segunda columna */
     background-color: #ffffff;
-    /* Color de fondo para la segunda columna */
 }
 
 .columna3 {
     width: 18%;
-    /* Tamaño de la tercera columna */
-    background-color: #d6d6d6;
-    /* Color de fondo para la tercera columna */
+    background-color: #d6d6d6;    
 }
 
 .titulo_columna1 {
@@ -99,43 +51,34 @@ header {
     font-size: 18px;
 }
 
-/* Primera columna (izd) */
+/*--------------------------------Primera columna (izd)----------------------*/
 .productos {
-    list-style: none;
-    /* Quita los estilos de la lista */
-    padding: 0;
-    /* Elimina el relleno de la lista */
-
+    list-style: none;    
+    padding: 0;   
 }
 
 .productos li {
-    padding: 10px;
-    /* Espacio interno de cada elemento de la lista */
+    padding: 10px;    
     border-bottom: 1px solid rgb(190, 190, 190);
 }
 
 .productos li a {
-    text-decoration: none;
-    /* Quita el subrayado de los enlaces */
+    text-decoration: none;    
     color: black;
-    /* Color del texto */
+    
 }
 
 .productos li:hover {
-    background-color: rgb(188, 188, 188);
-    /* Cambia el color de fondo cuando se pasa el ratón */
+    background-color: rgb(188, 188, 188);    
 }
 
 .soluciones {
     list-style: none;
-    /* Quita los estilos de la lista */
-    padding: 0;
-    /* Elimina el relleno de la lista */
+    padding: 0;    
 }
 
 .soluciones li {
-    padding: 10px;
-    /* Espacio interno de cada elemento de la lista */
+    padding: 10px;    
     border-bottom: 1px solid rgb(190, 190, 190);
 }
 
@@ -145,37 +88,32 @@ header {
 }
 
 .soluciones li:hover {
-    background-color: rgb(188, 188, 188);
-    /* Cambia el color de fondo cuando se pasa el ratón */
+    background-color: rgb(188, 188, 188);    
 }
 
 .libreria {
-    list-style: none;
-    /* Quita los estilos de la lista */
+    list-style: none;    
     padding: 0;
-    /* Elimina el relleno de la lista */
+    
 }
 
 .libreria li {
-    padding: 10px;
-    /* Espacio interno de cada elemento de la lista */
+    padding: 10px;    
     border-bottom: 1px solid rgb(190, 190, 190);
 }
 
 .libreria li a {
-    text-decoration: none;
-    /* Quita el subrayado de los enlaces */
+    text-decoration: none;    
     color: black;
-    /* Color del texto */
+    
 }
 
 .libreria li:hover {
-    background-color: rgb(188, 188, 188);
-    /* Cambia el color de fondo cuando se pasa el ratón */
+    background-color: rgb(188, 188, 188);    
 }
 
 
-/* Barra de navegacion columna 2 */
+/*----------------------- Barra de navegacion columna 2 ---------------------*/
 
 #barra_navegacion {
     padding: 0 0 0 0;
@@ -213,7 +151,7 @@ header {
     color: #ffffff;
 }
 
-/*Contenido pagina principal*/
+/*--------------------Contenido pagina principal--------------------*/
 
 .titulo_principal {
     text-align: center;
@@ -226,23 +164,19 @@ header {
 
 .imagen1 {
     width: 350px;
-    /* Cambia el ancho de la imagen */
+    
     height: auto;
 
 }
 
 .imagen1 {
-    float: left;
-    /* Hace que la imagen flote a la izquierda */
-    margin-right: 20px;
-    /* Espacio entre la imagen y el texto */
-    margin-bottom: 20px;
-    /* Espacio debajo de la imagen */
+    float: left;    
+    margin-right: 20px;    
+    margin-bottom: 20px;    
 }
 
 .imagen2 {
-    width: 350px;
-    /* Cambia el ancho de la imagen */
+    width: 350px;    
     height: auto;
     float: right;
 
@@ -250,9 +184,7 @@ header {
 
 .contenedor {
     display: flex;
-
     align-items: center;
-
 }
 
 .imagen2 {
@@ -263,35 +195,28 @@ header {
     flex-grow: 1;
 }
 
-/*------------columna derecha----------------------*/
+/*-------------------------------columna derecha----------------------*/
 .titulo_preguntas{
     color: #0066b3;
     text-align: center;
 }
 .preguntas {
-    list-style: none;
-    /* Quita los estilos de la lista */
-    padding: 0;
-    /* Elimina el relleno de la lista */
-
+    list-style: none;    
+    padding: 0;  
 }
 
 .preguntas li {
-    padding: 10px;
-    /* Espacio interno de cada elemento de la lista */
+    padding: 10px;    
     border-bottom: 1px solid rgb(190, 190, 190);
 }
 
 .preguntas li a {
-    text-decoration: none;
-    /* Quita el subrayado de los enlaces */
-    color: black;
-    /* Color del texto */
+    text-decoration: none;    
+    color: black;   
 }
 
 .preguntas li:hover {
-    background-color: rgb(188, 188, 188);
-    /* Cambia el color de fondo cuando se pasa el ratón */
+    background-color: rgb(188, 188, 188);    
 }
 
 /* -----------------------------footer ---------------------------------------------------------*/
@@ -382,3 +307,92 @@ footer .copyright {
 .redes-sociales li:hover {
     background-color: rgb(188, 188, 188);
 }
+
+/* ----------------------------------------formulario----------------------- */
+
+#formularioPrincipal {
+    background-color: #e4e4e4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+form h2 {
+    color: #0066b3;
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+
+textarea {
+    resize: vertical;
+}
+
+#mensaje_formulario{
+    border-bottom: 3px solid rgb(144, 144, 144);
+}
+
+div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    font-weight: bold;
+}
+
+input[type="file"],
+input[type="date"],
+input[type="color"],
+input[type="password"],
+input[type="checkbox"],
+input[type="radio"],
+input[type="submit"] {
+    margin-left: 10px;
+}
+
+input[type="file"] {
+    width: 200px;
+}
+
+select {
+    width: 200px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-left: 0;
+}
+
+input[type="checkbox"]+label,
+input[type="radio"]+label {
+    margin-left: 5px;
+}
+

@@ -4,7 +4,7 @@
 <head>
     <title>Pagina principal</title>
     <link rel="stylesheet" href="css/app.css">
-
+    
     <meta name="description" content="Primer entregable web" />
     <link rel="icon" type="image/x-icon" href="img/logo.png" />
 
@@ -66,11 +66,69 @@
                         <li class="seleccionado"><a href="formulario.html">Formulario</a></li>
                     </ul>
                 </nav>
-                
-<div class="formulario1">
-    <h1 class="titulo_principal">Formulario</h1>
-</div>
 
+                <div class="formulario1">
+                    <h1 class="titulo_principal">Formulario</h1>
+                </div>
+                
+                <form action="/submit_formulario" method="POST" id="formularioPrincipal">
+                    <h2>Formulario de Contacto</h2>
+                    <div>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="telefono">Teléfono:</label>
+                        <input type="tel" id="telefono" name="telefono">
+                    </div>
+                    <div id="mensaje_formulario">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea>
+                    </div>
+                    <div>
+                        <label for="archivo">Adjuntar archivo:</label>
+                        <input type="file" id="archivo" name="archivo">
+                    </div>
+                    <div>
+                        <label for="seleccion">Seleccione una opción:</label>
+                        <select id="seleccion" name="seleccion">
+                            <option value="opcion1">Opción 1</option>
+                            <option value="opcion2">Opción 2</option>
+                            <option value="opcion3">Opción 3</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="fecha">Fecha de nacimiento:</label>
+                        <input type="date" id="fecha" name="fecha">
+                    </div>
+                    <div>
+                        <label for="color">Color favorito:</label>
+                        <input type="color" id="color" name="color">
+                    </div>
+                    <div>
+                        <label for="contraseña">Contraseña:</label>
+                        <input type="password" id="contraseña" name="contraseña">
+                    </div>
+                    <div>
+                        <input type="checkbox" id="suscribir" name="suscribir">
+                        <label for="suscribir">Suscribirse al boletín informativo</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="opcion1" name="opcion" value="opcion1">
+                        <label for="opcion1">Opción 1</label>
+                        <input type="radio" id="opcion2" name="opcion" value="opcion2">
+                        <label for="opcion2">Opción 2</label>
+                        <input type="radio" id="opcion3" name="opcion" value="opcion3">
+                        <label for="opcion3">Opción 3</label>
+                    </div>
+                    <div>
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
 
 
 
