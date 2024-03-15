@@ -16,11 +16,18 @@ header {
     height: auto;    
 }
 
-input[type="text"],
-input[type="submit"] {
-    display: inline-block; /* Para que los elementos se muestren en línea */
-    
-}
+header #buscador {
+    position: absolute;
+    right: 20px;
+  }
+  
+  header #buscador legend {
+    display: none;
+  }
+  
+  header #buscador fieldset {
+    border: none;
+  }
 /*---------------------------------Centro de la pagina dividido en tres columnas -------------*/
 
 .principal {
@@ -396,3 +403,29 @@ input[type="radio"]+label {
     margin-left: 5px;
 }
 
+/*----------------tabla de proyectos*/
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #ccc;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
